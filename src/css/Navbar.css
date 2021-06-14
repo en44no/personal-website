@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 5rem;
+  padding-left: 5rem;
+  z-index: 1;
+}
+
+.scrolling {
+  background-color: rgb(0, 0, 0);
+  transition: all 0, 5 ease;
+}
+
+.navbar-logo {
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.scrolling-logo {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0, 5 ease;
+  font-weight: bold;
+}
