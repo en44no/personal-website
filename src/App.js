@@ -1,15 +1,29 @@
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Home } from './components/Home';
-import { NavBar } from './components/NavBar';
-import { Footer } from './components/Footer';
+import { Cover } from './components/Cover';
+import { Navbar } from './components/Navbar';
+import { About } from './components/About';
 
 function App() {
+  const [scrollHeight, setScrollHeight] = useState(0);
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollHeight(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+  }, [scrollHeight]);
+
   return (
     <>
-      <NavBar />
-      <Home />
-      <Footer />
+      <div className="App">
+        <Navbar isScrolling={scrollHeight} />
+        <Cover />
+        <About />
+      </div>
     </>
   );
 }
