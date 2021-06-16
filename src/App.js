@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Cover } from './components/Cover';
-import { Navbar } from './components/Navbar';
+import { Navbar } from './components/NavBar';
 import { About } from './components/About';
 
 function App() {
