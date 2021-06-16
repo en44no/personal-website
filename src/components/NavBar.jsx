@@ -19,6 +19,7 @@ export const Navbar = ({ isScrolling }) => {
         >
           Nahuel Márquez
         </div>
+        <div className="navbar-border"></div>
       </nav>
     </>
   );
