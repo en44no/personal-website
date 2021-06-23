@@ -7,12 +7,15 @@ export const About = () => {
     <>
       <div className="about-container">
         <div className="about-desc">
-          <h3>About me here</h3>
+          <h3>About me</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ducimus
-            ipsa nostrum? Accusamus autem rerum odit, ut eaque facilis! Autem
-            dolores voluptate neque quaerat nulla sit provident officia,
-            excepturi hic?
+            Studying the final project of the Programmer Analyst career at ORT
+            Uruguay. <br /> Working as an administrative officer in 'Intendencia
+            de Maldonado' in the Tax sector. <br /> I am from Piriápolis,
+            Uruguay, I currently work there, I study in Maldonado at the CEI
+            Institute certified by ORT. <br /> I really enjoy teamwork and
+            growing with other people, both at work, in the study, and in life
+            itself.
           </p>
         </div>
         <div className="about-img">

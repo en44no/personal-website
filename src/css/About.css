@@ -3,7 +3,7 @@
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   height: 100vh;
-  padding: 100px 0 100px 0;
+  padding: 4rem 4rem;
   margin-bottom: 100vh;
 }
 
@@ -13,7 +13,7 @@
   justify-content: center;
   width: 80%;
   height: 93%;
-  padding: 0 100px 0 100px;
+  padding: 0 0 0 3rem;
 }
 
 .about-desc > h3 {
@@ -28,13 +28,13 @@
 
 .about-img {
   width: 45%;
-  height: 80%;
+  height: 70%;
   display: flex;
   margin-top: 3rem;
   align-self: center;
-  margin-left: 7rem;
+  margin-left: 10rem;
   overflow: hidden;
-  border-radius: 4rem;
+  border-radius: 3rem;
 }
 
 @media only screen and (max-width: 960px) {
