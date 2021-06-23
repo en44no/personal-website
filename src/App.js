@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Cover } from './components/Cover';
 import { Navbar } from './components/NavBar';
 import { About } from './components/About';
+import { Footer } from './components/Footer';
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -23,6 +24,7 @@ function App() {
         <Navbar isScrolling={scrollHeight} />
         <Cover />
         <About />
+        <Footer />
       </div>
     </>
   );
