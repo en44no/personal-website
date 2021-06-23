@@ -20,16 +20,22 @@
 .cover-container > h1 {
   font-size: 4rem;
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .cover-container > h4 {
   font-size: 2rem;
   color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.spinner {
+  cursor: pointer;
 }
 
 .down-arrow {
   top: 30%;
-  color: white;
+  color: #fff;
   font-size: 1.4rem;
   cursor: pointer;
 }
@@ -50,4 +56,16 @@
   animation-duration: 1.3s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
+}
+
+@media screen and (max-width: 960px) {
+  .cover-container > h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .cover-container > h4 {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 85%;
+  }
 }
