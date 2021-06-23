@@ -9,9 +9,8 @@ export const Footer = () => {
         <h2>Piriápolis, Uruguay</h2>
         <div className="footer-contact">
           <h3>You can contact me by clicking on the following buttons</h3>
-          <p></p>
         </div>
-        <div className="sns-links">
+        <div className="social-links">
           <a
             href="https://www.linkedin.com/in/nahuelmarquez/"
             target="_blank"

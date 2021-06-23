@@ -46,8 +46,9 @@
   .about-desc {
     width: 90%;
     margin: 0 auto;
-    padding: 40px 20px 50px 20px;
-    font-size: 1.1rem;
+    padding: 40px 20px 0px 20px;
+    font-size: 1rem;
+    text-align: center;
   }
 
   .about-desc > h3 {
@@ -58,8 +59,8 @@
 
   .about-img {
     width: 50%;
-    margin-bottom: 1rem;
-    margin-top: 0;
+    margin: auto;
+    margin-bottom: 25%;
   }
 
   .about-img > img {
