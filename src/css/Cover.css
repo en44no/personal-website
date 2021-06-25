@@ -18,17 +18,17 @@
 .cover-container > h1 {
   font-size: 4rem;
   color: rgb(255, 255, 255);
-  cursor: pointer;
 }
 
 .cover-container > h4 {
   font-size: 2rem;
   color: rgb(255, 255, 255);
-  cursor: pointer;
 }
 
 .spinner {
   cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
 }
 
 .down-arrow {

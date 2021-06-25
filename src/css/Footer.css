@@ -3,11 +3,19 @@
   height: 100vh;
   background-color: rgb(0, 0, 0);
   color: #fff;
-  padding-top: 13rem;
+  padding-top: 11rem;
   position: fixed;
   z-index: -2;
   bottom: 0;
   left: 0;
+  animation: showFooter 0s 0.1s forwards;
+  visibility: hidden;
+}
+
+@keyframes showFooter {
+  to {
+    visibility: visible;
+  }
 }
 
 .footer-info {
@@ -15,7 +23,6 @@
   text-align: center;
   width: 90%;
   margin: 0 auto;
-  cursor: pointer;
 }
 
 .footer-info > h1 {
@@ -69,11 +76,20 @@
     padding: 0;
   }
 
+  .footer-info > h1 {
+    font-size: 3.5rem;
+  }
+
+  .footer-info > h2 {
+    font-size: 1.7rem;
+  }
+
   .footer-contact {
     padding: 30px 0 10px 0;
     width: 100%;
     text-align: center;
   }
+
   .footer-contact > h3 {
     font-size: 1rem;
   }
