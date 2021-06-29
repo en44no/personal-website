@@ -5,6 +5,7 @@ import { Cover } from './components/Cover';
 import { Navbar } from './components/NavBar';
 import { About } from './components/About';
 import { Footer } from './components/Footer';
+import { GoTop } from './components/GoTop';
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -22,6 +23,7 @@ function App() {
     <>
       <div className="App">
         <Navbar isScrolling={scrollHeight} />
+        <GoTop isScrolling={scrollHeight} />
         <Cover />
         <About />
         <Footer />
