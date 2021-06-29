@@ -28,13 +28,13 @@
 .spinner {
   cursor: pointer;
   color: rgb(255, 255, 255);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .down-arrow {
   top: 30%;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
