@@ -8,7 +8,7 @@
   z-index: -2;
   bottom: 0;
   left: 0;
-  animation: showFooter 0s 0.1s forwards;
+  animation: showFooter 0s 0.3s forwards;
   visibility: hidden;
 }
 
