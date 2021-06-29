@@ -43,7 +43,7 @@
     left: 0px;
     top: 30%;
   }
-  25% {
+  100% {
     left: 0px;
     top: 32%;
   }
@@ -51,9 +51,24 @@
 
 .down-arrow {
   animation-name: arrow-animation;
-  animation-duration: 1.3s;
+  animation-duration: 0.8s;
   animation-iteration-count: infinite;
-  animation-direction: reverse;
+  animation-direction: alternate-reverse;
+}
+
+h1,
+h4 {
+  animation: updown 1s 1;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 @media screen and (max-width: 960px) {
