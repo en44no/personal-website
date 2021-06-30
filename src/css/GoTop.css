@@ -24,3 +24,9 @@
 .up-arrow-scrolling {
   display: flex;
 }
+
+@media screen and (max-width: 960px) {
+  .up-arrow {
+    left: 90%;
+  }
+}
