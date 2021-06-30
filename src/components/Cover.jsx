@@ -6,7 +6,7 @@ export const Cover = () => {
     <div className="cover-container">
       <img
         className="video"
-        src="https://media.giphy.com/media/9OEf08mC8sUV7SA2nS/giphy.gif"
+        src="https://media.giphy.com/media/lhrt3UOtzMHLDuO7oo/giphy.gif"
         alt="why"
       ></img>
       <h1>Hello, I'm Nahuel</h1>
