@@ -11,7 +11,8 @@
 .navbar-border {
   cursor: pointer;
   position: fixed;
-  width: 10%;
+  min-width: 9rem;
+  margin-left: 0.1rem;
   top: 3.5rem;
   border-bottom: 0.2rem rgb(0, 0, 0) solid;
   z-index: 1;
@@ -40,12 +41,24 @@
 @media only screen and (max-width: 960px) {
   .navbar-logo {
     font-size: 1.1rem;
-    margin-left: -3rem;
   }
 
   .navbar-border {
     width: 7.7rem;
-    margin-left: -2.5rem;
+    top: 3.5rem;
+    border-bottom: 0.2rem rgb(0, 0, 0) solid;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-logo {
+    font-size: 1.1rem;
+    margin-left: -4rem;
+  }
+
+  .navbar-border {
+    width: 7.7rem;
+    margin-left: -4.2rem;
     top: 3.5rem;
     border-bottom: 0.2rem rgb(0, 0, 0) solid;
   }
