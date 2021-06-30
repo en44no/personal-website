@@ -15,5 +15,12 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: rgb(117, 117, 117);
-  border-radius: 0px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  body::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
 }
