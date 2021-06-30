@@ -7,7 +7,7 @@ export const Cover = () => {
       <img
         className="video"
         src="https://media.giphy.com/media/lhrt3UOtzMHLDuO7oo/giphy.gif"
-        alt="why"
+        alt="Person typing in his keyboard by media.giphy.com"
       ></img>
       <h1>Hello, I'm Nahuel</h1>
       <h4 className="mb-4">A programmer in process</h4>
