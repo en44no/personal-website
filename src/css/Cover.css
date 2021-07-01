@@ -83,6 +83,9 @@ h4 {
     width: 85%;
     z-index: 0;
   }
+  .cover-container {
+    background-color: rgb(112, 112, 112);
+  }
   .video {
     object-fit: cover;
     width: 100%;
