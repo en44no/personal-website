@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import '../css/Cover.css';
 
@@ -12,7 +13,7 @@ export const Cover = () => {
       <h1>Hello, I'm Nahuel</h1>
       <h4 className="mb-4">A programmer in process</h4>
       <i class="spinner fas fa-spinner fa-spin"></i>
-      <i className="down-arrow fad fa-chevron-double-down"></i>
+      <a href="#about" className="down-arrow fad fa-chevron-double-down"></a>
     </div>
   );
 };
