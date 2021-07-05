@@ -5,6 +5,7 @@
   height: 5rem;
   padding-left: 5rem;
   transition: 0.5s;
+  z-index: 50;
 }
 
 .navbar-border {
