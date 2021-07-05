@@ -99,10 +99,3 @@ h4 {
     z-index: -50;
   }
 }
-
-/* this is for my iphone 11*/
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 2) {
-  .down-arrow {
-    top: 20%;
-  }
-}
