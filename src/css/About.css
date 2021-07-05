@@ -69,3 +69,17 @@
     width: 100%;
   }
 }
+
+/* this is for my iphone 11*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 2) {
+  .about-img {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25%;
+    height: 30%;
+  }
+
+  .about-img > img {
+    width: 100%;
+  }
+}

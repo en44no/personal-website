@@ -61,3 +61,10 @@
     border-bottom: 0.2rem rgb(0, 0, 0) solid;
   }
 }
+
+/* this is for my iphone 11*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 2) {
+  .navbar-border {
+    margin-left: 0.5rem;
+  }
+}
