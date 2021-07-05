@@ -4,18 +4,8 @@
   background-color: rgb(0, 0, 0);
   color: #fff;
   padding-top: 11rem;
-  position: fixed;
-  z-index: -100;
   bottom: 0;
   left: 0;
-  animation: showFooter 0s 0.8s forwards;
-  visibility: hidden;
-}
-
-@keyframes showFooter {
-  to {
-    visibility: visible;
-  }
 }
 
 .footer-info {
@@ -27,6 +17,7 @@
 
 .footer-info > h1 {
   padding-bottom: 0.5rem;
+  margin-top: 5.5rem;
   font-size: 4rem;
 }
 .footer-info > h2 {
