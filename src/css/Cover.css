@@ -36,6 +36,7 @@
   color: #fff;
   font-size: 1.5rem;
   cursor: pointer;
+  z-index: -50;
 }
 .down-arrow:hover {
   color: #fff;
