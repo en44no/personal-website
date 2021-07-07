@@ -6,6 +6,7 @@
   padding-left: 5rem;
   transition: 0.5s;
   z-index: 50;
+  cursor: pointer;
 }
 
 .navbar-border {
@@ -31,7 +32,7 @@
 }
 
 .scrolling-logo {
-  color: rgb(255, 255, 255);
+  color: rgb(206, 206, 206);
   cursor: pointer;
   transition: 0.5s;
   font-weight: bold;
