@@ -37,6 +37,7 @@
   margin-left: 10rem;
   overflow: hidden;
   border-radius: 3rem;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 960px) {
@@ -63,6 +64,7 @@
     width: 50%;
     margin: auto;
     margin-bottom: 25%;
+    object-fit: cover;
   }
 
   .about-img > img {
