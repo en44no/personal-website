@@ -23,4 +23,25 @@ body::-webkit-scrollbar-thumb {
     width: 0; /* Remove scrollbar space */
     background: transparent; /* Optional: just make scrollbar invisible */
   }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    body {
+      height: -webkit-fill-available;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      /*reset for mobile browsers */
+      font-weight: normal;
+    }
+  }
 }
