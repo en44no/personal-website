@@ -17,7 +17,7 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(117, 117, 117);
   border-radius: 10px;
 }
-
+/*
 @media screen and (max-width: 960px) {
   body::-webkit-scrollbar {
     width: 0; /* Remove scrollbar space */
@@ -26,9 +26,9 @@ body::-webkit-scrollbar-thumb {
   
   @supports (-webkit-touch-callout: none) { 
     body {
-      /* The hack for Safari */ height: -webkit-fill-available; 
+       The hack for Safari */ height: -webkit-fill-available; 
     }
-
+*/
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
 font-weight: normal;
   }
