@@ -23,4 +23,9 @@ body::-webkit-scrollbar-thumb {
     width: 0; /* Remove scrollbar space */
     background: transparent; /* Optional: just make scrollbar invisible */
   }
+  
+  @supports (-webkit-touch-callout: none) { 
+    body {
+      /* The hack for Safari */ height: -webkit-fill-available; 
+    }
 }
