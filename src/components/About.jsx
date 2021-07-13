@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/About.css';
+import '../css/About.css?vers=1';
 import mePhoto from '.././media/me.jpeg';
 
 export const About = () => {
