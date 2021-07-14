@@ -78,6 +78,7 @@
   }
 }
 
+/* THIS IS TO CHANGE SETTINGS ONLY FOR IOS (SAFARI AND CHROME) */
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) {
     .navbar-border {
@@ -89,7 +90,6 @@
     .navbar-logo {
       font-size: 1.1rem;
       margin-left: -3.1rem;
-      color: red;
     }
   }
 }
