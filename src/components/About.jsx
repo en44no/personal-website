@@ -7,8 +7,10 @@ export const About = () => {
     <>
       <div className="about-container" id="about">
         <div className="about-desc">
-          <h3>About me</h3>
-          <p>
+          <h3 data-aos="fade-up" data-aos-duration="500" data-aos-mirror="true">
+            About me
+          </h3>
+          <p data-aos="fade-up" data-aos-duration="500" data-aos-mirror="true">
             Studying the final project of the Programmer Analyst career at ORT
             Uruguay. <br /> Working as an administrative officer in 'Intendencia
             de Maldonado' in the Tax sector. <br /> I am from Piriápolis,
@@ -18,7 +20,12 @@ export const About = () => {
             itself.
           </p>
         </div>
-        <div className="about-img">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-mirror="true"
+          className="about-img"
+        >
           <img src={mePhoto} alt="me" />
         </div>
       </div>

@@ -19,7 +19,7 @@ export const Navbar = ({ isScrolling }) => {
         >
           Nahuel Márquez
         </div>
-        <div className="navbar-border"></div>
+        <div className="navbar-border" data-aos-id="super-duper"></div>
       </nav>
     </>
   );

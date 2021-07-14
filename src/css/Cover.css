@@ -61,11 +61,6 @@
   animation-direction: alternate-reverse;
 }
 
-h1,
-h4 {
-  animation: updown 1s 1;
-}
-
 @keyframes updown {
   0% {
     transform: translateY(100%);
