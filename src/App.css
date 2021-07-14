@@ -28,19 +28,14 @@ body::-webkit-scrollbar-thumb {
     background-color: rgb(117, 117, 117);
     border-radius: 10px;
   }
+}
 
-  @supports (-webkit-touch-callout: none) {
-    body {
-      height: -webkit-fill-available;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-weight: normal;
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
+      * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
     }
   }
 }
