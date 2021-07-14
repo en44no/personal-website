@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/GoTop.css';
+import '../css/GoTop.css?vers=1';
 
 export const GoTop = ({ isScrolling }) => {
   const goToTop = () => {

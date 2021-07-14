@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
-import '../css/Cover.css';
+import '../css/Cover.css?vers=1';
 
 export const Cover = () => {
   return (
