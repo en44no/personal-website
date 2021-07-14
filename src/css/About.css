@@ -86,6 +86,7 @@
   }
 
   .about-desc > h3 {
+    margin-top: 15%;
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 0;
@@ -94,8 +95,7 @@
   .about-img {
     width: 50%;
     margin: auto;
-    margin-bottom: 25%;
-    padding-top: 3rem;
+    margin-bottom: 15%;
   }
 
   .about-img > img {

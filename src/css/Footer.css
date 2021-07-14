@@ -91,3 +91,36 @@
     width: 40%;
   }
 }
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone portrait */
+  .footer {
+    padding-top: 5.5rem;
+  }
+  .footer-info {
+    text-align: center;
+    margin-top: 50%;
+  }
+
+  .footer-info > h1 {
+    font-size: 3.5rem;
+  }
+
+  .footer-info > h2 {
+    font-size: 1.7rem;
+  }
+
+  .footer-contact {
+    padding: 0px 0 0px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-contact > h3 {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    width: 40%;
+  }
+}
