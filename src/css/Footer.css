@@ -99,7 +99,7 @@
   }
   .footer-info {
     text-align: center;
-    margin-top: 50%;
+    margin-top: 40%;
   }
 
   .footer-info > h1 {
@@ -114,6 +114,8 @@
     padding: 0px 0 0px 0;
     width: 100%;
     text-align: center;
+    position: relative;
+    top: 0.8rem;
   }
 
   .footer-contact > h3 {
@@ -122,5 +124,7 @@
 
   .social-links {
     width: 40%;
+    position: relative;
+    top: 1.3rem;
   }
 }
