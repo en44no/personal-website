@@ -78,15 +78,18 @@
   }
 }
 
-@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
-  .navbar-border {
-    width: 10rem;
-    margin-left: -3rem;
-    top: 3.5rem;
-    border-bottom: 0.2rem rgb(0, 0, 0) solid;
-  }
-  .navbar-logo {
-    font-size: 1.1rem;
-    margin-left: -3.1rem;
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .navbar-border {
+      width: 10rem;
+      margin-left: -3rem;
+      top: 3.5rem;
+      border-bottom: 0.2rem rgb(0, 0, 0) solid;
+    }
+    .navbar-logo {
+      font-size: 1.1rem;
+      margin-left: -3.1rem;
+      color: red;
+    }
   }
 }
