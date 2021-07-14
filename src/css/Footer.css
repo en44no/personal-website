@@ -129,21 +129,21 @@
   }
 }
 
-/* Medium Devices, Desktops */
+/* MEDIUM DEVICES */
 @media only screen and (min-width: 992px) {
   .footer {
     padding-top: 10%;
   }
 }
 
-/* Large Devices */
+/* LARGE DEVICES */
 @media only screen and (min-width: 1200px) {
   .footer {
     padding-top: 10%;
   }
 }
 
-/* VERY Large Devices, Wide Screens */
+/* VERY LARGE DEVICES */
 @media only screen and (min-width: 1600px) {
   .footer {
     padding-top: 13%;
