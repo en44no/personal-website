@@ -50,12 +50,10 @@
     margin: 0 auto;
     padding: 40px 20px 0px 20px;
     font-size: 1rem;
-    text-align: center;
   }
 
   .about-desc > h3 {
     font-size: 1.8rem;
-    text-align: center;
     margin-bottom: 0;
   }
 
@@ -82,13 +80,11 @@
     margin: 0 auto;
     padding: 40px 20px 0px 20px;
     font-size: 1rem;
-    text-align: center;
   }
 
   .about-desc > h3 {
     margin-top: 15%;
     font-size: 1.8rem;
-    text-align: center;
     margin-bottom: 0;
     font-weight: bold;
   }
