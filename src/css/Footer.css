@@ -3,7 +3,7 @@
   height: 100vh;
   background-color: rgb(0, 0, 0);
   color: rgb(206, 206, 206);
-  padding-top: 9rem;
+  padding-top: 13%;
   bottom: 0;
   left: 0;
 }
@@ -126,5 +126,26 @@
     width: 40%;
     position: relative;
     top: 1.3rem;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .footer {
+    padding-top: 10%;
+  }
+}
+
+/* Large Devices */
+@media only screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 10%;
+  }
+}
+
+/* VERY Large Devices, Wide Screens */
+@media only screen and (min-width: 1600px) {
+  .footer {
+    padding-top: 13%;
   }
 }
