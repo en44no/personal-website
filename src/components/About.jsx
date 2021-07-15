@@ -28,6 +28,7 @@ export const About = () => {
           data-aos="fade-up"
           data-aos-duration="300"
           data-aos-mirror="true"
+          data-aos-delay="1"
           className="about-img"
         >
           <img src={mePhoto} alt="me" />

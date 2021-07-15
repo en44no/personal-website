@@ -43,32 +43,24 @@
 @media only screen and (max-device-width: 480px) and (orientation: portrait) {
   .about-container {
     flex-direction: column;
+    padding: 0;
     height: auto;
   }
-
   .about-desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 80%;
-    height: 100%;
-    padding: 0rem 0rem 0rem 0rem;
-    margin-bottom: -2rem;
+    width: 100%;
+    padding: 40px 20px 0px 20px;
+    text-align: center;
   }
 
   .about-desc > h3 {
+    font-size: 1.8rem;
+    margin-top: 5%;
     position: relative;
     top: 1rem;
-    font-size: 1.8rem;
-    font-weight: bold;
-    padding: 0rem 0rem 1rem 0rem;
   }
 
   .about-desc > p {
     font-size: 1.2rem;
-    position: relative;
-    top: 0rem;
-    padding: 0rem 0rem 1rem 0rem;
   }
 
   .about-img {
@@ -76,6 +68,8 @@
     max-width: 250px;
     margin: auto;
     position: relative;
+    top: 0.5rem;
+    margin-bottom: 15%;
   }
 
   .about-img > img {
@@ -86,7 +80,7 @@
 }
 
 /* TABLET DEVICES */
-@media screen and (max-device-width: 960px), screen and (max-width: 960px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   .about-container {
     flex-direction: column;
     padding: 0;
@@ -124,7 +118,7 @@
 }
 
 /* MEDIUM DEVICES */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 961px) and (max-width: 1199px) {
   .about-desc {
     width: 100%;
     padding: 20px 0px 0px 0px;
@@ -142,7 +136,7 @@
 }
 
 /* LARGE DEVICES (my laptop screen) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .about-desc {
     width: 100%;
     padding: 0px 0px 0px 70px;
@@ -157,7 +151,7 @@
 }
 
 /* VERY LARGE DEVICES (my other monitor) */
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1500px) {
   .about-desc > p {
     font-size: 1.4rem;
   }
