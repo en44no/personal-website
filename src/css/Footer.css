@@ -60,6 +60,37 @@
   border-color: rgb(206, 206, 206);
 }
 
+@media only screen and (max-width: 960px) {
+  .footer {
+    padding-top: 5.5rem;
+  }
+  .footer-info {
+    text-align: center;
+  }
+
+  .footer-info > h1 {
+    font-size: 3.5rem;
+  }
+
+  .footer-info > h2 {
+    font-size: 1.7rem;
+  }
+
+  .footer-contact {
+    padding: 0px 0 0px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-contact > h3 {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    width: 40%;
+  }
+}
+
 /* MOBILE DEVICES */
 @media only screen and (max-device-width: 480px) and (orientation: portrait) {
   .footer {
@@ -132,7 +163,7 @@
 /* MEDIUM DEVICES */
 @media only screen and (min-width: 961px) {
   .footer {
-    padding-top: 10%;
+    padding-top: 5rem;
   }
 }
 
