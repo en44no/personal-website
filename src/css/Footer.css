@@ -60,41 +60,66 @@
   border-color: rgb(206, 206, 206);
 }
 
-@media only screen and (max-width: 960px) {
+/* SMALL MOBILE DEVICES */
+@media only screen and (max-device-width: 350px) and (orientation: portrait) {
   .footer {
-    padding-top: 5.5rem;
+    padding-top: 4rem;
   }
   .footer-info {
     text-align: center;
+    margin-top: 0rem;
+    padding-top: 0rem;
   }
 
   .footer-info > h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
+    padding-bottom: 0.3rem;
   }
 
   .footer-info > h2 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
+    margin-top: 0rem;
+    padding-top: 0rem;
+  }
+
+  .footer-info {
+    font-size: 2rem;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0rem;
+    padding-top: 0rem;
   }
 
   .footer-contact {
     padding: 0px 0 0px 0;
     width: 100%;
     text-align: center;
+    position: relative;
+    top: 0.8rem;
+    margin-top: 0rem;
+    padding-top: 0rem;
   }
 
   .footer-contact > h3 {
     font-size: 1rem;
+    margin-top: 0rem;
+    padding-top: 0rem;
   }
 
   .social-links {
     width: 40%;
+    position: relative;
+    top: 1.3rem;
+    margin-top: 0rem;
+    padding-top: 0rem;
   }
 }
 
 /* MOBILE DEVICES */
-@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+@media only screen and (min-device-width: 351px) and (max-device-width: 480px) and (orientation: portrait) {
   .footer {
-    padding-top: 5.5rem;
+    padding-top: 4rem;
   }
   .footer-info {
     text-align: center;
@@ -129,7 +154,7 @@
 }
 
 /* TABLET DEVICES */
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   .footer {
     padding-top: 5.5rem;
   }
@@ -161,14 +186,14 @@
 }
 
 /* MEDIUM DEVICES */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 961px) and (max-width: 1199px) {
   .footer {
     padding-top: 5rem;
   }
 }
 
 /* LARGE DEVICES (my laptop screen) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .footer {
     padding-top: 5rem;
   }

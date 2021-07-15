@@ -16,12 +16,7 @@ export const Footer = () => {
             You can contact me by clicking on the following buttons
           </h3>
         </div>
-        <div
-          data-aos="fade-up"
-          data-aos-duration="300"
-          data-aos-mirror="true"
-          className="social-links"
-        >
+        <div className="social-links">
           <a
             href="https://www.linkedin.com/in/nahuelmarquez/"
             target="_blank"

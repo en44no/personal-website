@@ -43,19 +43,37 @@
   font-weight: bold;
 }
 
-@media only screen and (max-width: 960px) {
-  .navbar-logo {
-    font-size: 1.1rem;
-  }
-
+/* SMALL MOBILE DEVICES */
+@media only screen and (max-device-width: 350px) and (orientation: portrait) {
   .navbar-border {
     width: 7.7rem;
+    margin-left: -4.4rem;
     top: 3.5rem;
     border-bottom: 0.2rem rgb(0, 0, 0) solid;
+    min-width: 0rem;
+  }
+  .navbar-logo {
+    font-size: 1rem;
+    margin-left: -4.4rem;
   }
 }
 
-@media only screen and (max-width: 600px) {
+/* MOBILE DEVICES */
+@media only screen and (min-device-width: 351px) and (max-device-width: 480px) and (orientation: portrait) {
+  .navbar-border {
+    width: 7rem;
+    margin-left: -3rem;
+    top: 3.5rem;
+    border-bottom: 0.2rem rgb(0, 0, 0) solid;
+  }
+  .navbar-logo {
+    font-size: 1.1rem;
+    margin-left: -3rem;
+  }
+}
+
+/* TABLET DEVICES */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   .navbar-logo {
     font-size: 1.1rem;
     margin-left: -4rem;
@@ -69,18 +87,16 @@
   }
 }
 
-@media only screen and (max-device-width: 480px) and (orientation: portrait) {
-  /* iPhone portrait */
-  .navbar-border {
-    width: 7rem;
-    margin-left: -3rem;
-    top: 3.5rem;
-    border-bottom: 0.2rem rgb(0, 0, 0) solid;
-  }
-  .navbar-logo {
-    font-size: 1.1rem;
-    margin-left: -3rem;
-  }
+/* MEDIUM DEVICES */
+@media only screen and (min-width: 961px) and (max-width: 1199px) {
+}
+
+/* LARGE DEVICES (my laptop screen) */
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+}
+
+/* VERY LARGE DEVICES (my other monitor) */
+@media only screen and (min-width: 1500px) {
 }
 
 /* THIS IS TO CHANGE SETTINGS ONLY FOR IOS (SAFARI AND CHROME) */

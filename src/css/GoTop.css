@@ -24,8 +24,45 @@
   display: flex;
 }
 
-@media screen and (max-width: 960px) {
+/* SMALL MOBILE DEVICES */
+@media only screen and (max-device-width: 350px) and (orientation: portrait) {
+  .up-arrow {
+    left: 85%;
+  }
+}
+
+/* MOBILE DEVICES */
+@media only screen and (min-device-width: 351px) and (max-device-width: 480px) and (orientation: portrait) {
+  .up-arrow {
+    left: 88%;
+  }
+}
+
+/* TABLET DEVICES */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   .up-arrow {
     left: 90%;
+    top: 90%;
+  }
+}
+
+/* MEDIUM DEVICES */
+@media only screen and (min-width: 961px) and (max-width: 1199px) {
+  .up-arrow {
+    top: 90%;
+  }
+}
+
+/* LARGE DEVICES (my laptop screen) */
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+  .up-arrow {
+    top: 90%;
+  }
+}
+
+/* VERY LARGE DEVICES (my other monitor) */
+@media only screen and (min-width: 1500px) {
+  .up-arrow {
+    top: 90%;
   }
 }
