@@ -21,8 +21,7 @@ export const About = () => {
             de Maldonado' in the Tax sector. <br /> I am from Piriápolis,
             Uruguay, I currently work there, I study in Maldonado at the CEI
             Institute certified by ORT. <br /> I really enjoy teamwork and
-            growing with other people, both at work, in the study, and in life
-            itself.
+            growing with other people.
           </p>
         </div>
         <div
