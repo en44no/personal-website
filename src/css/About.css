@@ -39,7 +39,7 @@
   border-radius: 3rem;
 }
 
-/* IPHONE PORTRAIT */
+/* MOBILE DEVICES */
 @media only screen and (max-device-width: 480px) and (orientation: portrait) {
   .about-container {
     flex-direction: column;
