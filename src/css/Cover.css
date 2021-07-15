@@ -173,4 +173,19 @@
 
 /* VERY LARGE DEVICES (my other monitor) */
 @media only screen and (min-width: 1500px) {
+  .cover-container > h1 {
+    position: relative;
+    top: 4rem;
+  }
+  .cover-container > h4 {
+    position: relative;
+    top: 4rem;
+  }
+  .down-arrow {
+    margin-bottom: 10rem;
+  }
+  .spinner {
+    position: relative;
+    top: 4rem;
+  }
 }
