@@ -26,8 +26,17 @@
 
 .scrolling {
   background-color: rgb(0, 0, 0);
+  animation: changeBackground 0.3s;
 }
 
+@keyframes changeBackground {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: rgb(0, 0, 0);
+  }
+}
 .scrolling-logo {
   color: rgb(206, 206, 206);
   cursor: pointer;
