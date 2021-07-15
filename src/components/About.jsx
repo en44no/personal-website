@@ -7,10 +7,15 @@ export const About = () => {
     <>
       <div className="about-container" id="about">
         <div className="about-desc">
-          <h3 data-aos="fade-up" data-aos-duration="500" data-aos-mirror="true">
+          <h3
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-mirror="true"
+            data-aos-delay="1"
+          >
             About me
           </h3>
-          <p data-aos="fade-up" data-aos-duration="500" data-aos-mirror="true">
+          <p data-aos="fade-up" data-aos-duration="300" data-aos-mirror="true">
             Studying the final project of the Programmer Analyst career at ORT
             Uruguay. <br /> Working as an administrative officer in 'Intendencia
             de Maldonado' in the Tax sector. <br /> I am from Piriápolis,
@@ -22,7 +27,7 @@ export const About = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-duration="500"
+          data-aos-duration="300"
           data-aos-mirror="true"
           className="about-img"
         >

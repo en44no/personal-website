@@ -5,20 +5,20 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-info">
-        <h1 data-aos="fade-up" data-aos-duration="500" data-aos-mirror="true">
+        <h1 data-aos="fade-up" data-aos-duration="300" data-aos-mirror="true">
           Nahuel Márquez
         </h1>
-        <h2 data-aos="fade-up" data-aos-duration="500" data-aos-mirror="true">
+        <h2 data-aos="fade-up" data-aos-duration="300" data-aos-mirror="true">
           Piriápolis, Uruguay
         </h2>
         <div className="footer-contact">
-          <h3 data-aos="fade-up" data-aos-duration="500" data-aos-mirror="true">
+          <h3 data-aos="fade-up" data-aos-duration="300" data-aos-mirror="true">
             You can contact me by clicking on the following buttons
           </h3>
         </div>
         <div
           data-aos="fade-up"
-          data-aos-duration="500"
+          data-aos-duration="300"
           data-aos-mirror="true"
           className="social-links"
         >
