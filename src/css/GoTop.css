@@ -7,7 +7,7 @@
   left: 95%;
   display: none;
   cursor: pointer;
-  animation: updown 1s 1;
+  animation: updown 0.3s;
 }
 
 @keyframes updown {
