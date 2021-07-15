@@ -55,7 +55,7 @@
   }
 
   .about-desc > h3 {
-    margin-top: 15%;
+    margin-top: 20%;
     font-size: 1.8rem;
     margin-bottom: 0;
     font-weight: bold;
@@ -70,7 +70,7 @@
     margin: auto;
     position: relative;
     top: 1rem;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
   }
 
   .about-img > img {
@@ -138,6 +138,11 @@
 
 /* LARGE DEVICES (my laptop screen) */
 @media only screen and (min-width: 1200px) {
+  .about-desc {
+    width: 100%;
+    padding: 0px 0px 0px 70px;
+    text-align: center;
+  }
   .about-desc > p {
     font-size: 1.3rem;
   }
