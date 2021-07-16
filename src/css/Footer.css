@@ -193,9 +193,9 @@
 }
 
 /* LARGE DEVICES (my laptop screen) */
-@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .footer {
-    padding-top: 5rem;
+    padding-top: 11rem;
   }
   .footer-info > h1 {
     padding-bottom: 0.5rem;
@@ -205,7 +205,7 @@
 }
 
 /* VERY LARGE DEVICES (my other monitor) */
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1600px) {
   .footer {
     padding-top: 13rem;
   }
