@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/About.css?vers=1';
 import mePhoto from '.././media/me.jpeg';
+import CV from '.././media/test.pdf';
 
 export const About = () => {
   return (
@@ -27,6 +28,10 @@ export const About = () => {
             Institute certified by ORT. <br /> I really enjoy teamwork and
             growing with other people.
           </p>
+          <a download="Nahuel Márquez CV" href={CV} className="button">
+            Download CV
+            <i class="far fa-download"></i>
+          </a>
         </div>
         <div
           data-aos="zoom-in-right"
