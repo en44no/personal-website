@@ -32,6 +32,8 @@ export const About = () => {
             download="Nahuel Márquez CV"
             href={CV}
             className="button"
+            target="_blank"
+            rel="noreferrer"
             data-aos="zoom-in-right"
             data-aos-duration="200"
             data-aos-mirror="true"
