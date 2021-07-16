@@ -28,7 +28,15 @@ export const About = () => {
             Institute certified by ORT. <br /> I really enjoy teamwork and
             growing with other people.
           </p>
-          <a download="Nahuel Márquez CV" href={CV} className="button">
+          <a
+            download="Nahuel Márquez CV"
+            href={CV}
+            className="button"
+            data-aos="zoom-in-right"
+            data-aos-duration="200"
+            data-aos-mirror="true"
+            data-aos-delay="1"
+          >
             Download CV
             <i class="far fa-download"></i>
           </a>
