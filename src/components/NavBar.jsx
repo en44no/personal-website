@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Navbar.css?vers=2';
-import GoTop, { goToTop } from './GoTop';
+import { goToTop } from './GoTop';
 
 export const Navbar = ({ isScrolling }) => {
   return (
