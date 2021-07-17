@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import '../css/Cover.css?vers=1';
 
@@ -31,9 +30,16 @@ export const Cover = () => {
         data-aos-mirror="true"
         class="spinner fas fa-spinner fa-spin"
       ></i>
-      <a href="#about" className="down-arrow fad fa-chevron-double-down"></a>
+      <button
+        className="down-arrow fad fa-chevron-double-down"
+        onClick={goToAbout}
+      ></button>
     </div>
   );
 };
+
+function goToAbout() {
+  document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+}
 
 export default Cover;
