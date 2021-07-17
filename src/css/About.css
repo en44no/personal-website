@@ -101,6 +101,11 @@ a:hover {
     height: 40%;
     margin: auto;
   }
+
+  .button {
+    position: relative;
+    bottom: 0.8rem;
+  }
 }
 
 /* TABLET DEVICES */
