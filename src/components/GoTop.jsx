@@ -2,9 +2,6 @@ import React from 'react';
 import '../css/GoTop.css?vers=1';
 
 export const GoTop = ({ isScrolling }) => {
-  const goToTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-  };
   return (
     <i
       className={`up-arrow fad fa-chevron-circle-up ${
@@ -13,6 +10,10 @@ export const GoTop = ({ isScrolling }) => {
       onClick={goToTop}
     ></i>
   );
+};
+
+const goToTop = () => {
+  document.getElementById('cover').scrollIntoView({ behavior: 'smooth' });
 };
 
 export default GoTop;

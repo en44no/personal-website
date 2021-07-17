@@ -3,7 +3,7 @@ import '../css/Cover.css?vers=1';
 
 export const Cover = () => {
   return (
-    <div className="cover-container">
+    <div className="cover-container" id="cover">
       <img
         className="video"
         src="https://media.giphy.com/media/lhrt3UOtzMHLDuO7oo/giphy.gif"
