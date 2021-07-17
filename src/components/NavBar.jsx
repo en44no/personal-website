@@ -1,11 +1,8 @@
 import React from 'react';
 import '../css/Navbar.css?vers=1';
+import GoTop, { goToTop } from './GoTop';
 
 export const Navbar = ({ isScrolling }) => {
-  const goToTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-  };
-
   return (
     <>
       <nav

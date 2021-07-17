@@ -12,7 +12,7 @@ export const GoTop = ({ isScrolling }) => {
   );
 };
 
-const goToTop = () => {
+export const goToTop = () => {
   document.getElementById('cover').scrollIntoView({ behavior: 'smooth' });
 };
 
