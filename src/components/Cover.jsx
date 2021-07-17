@@ -38,8 +38,8 @@ export const Cover = () => {
   );
 };
 
-function goToAbout() {
+const goToAbout = () => {
   document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
-}
+};
 
 export default Cover;
