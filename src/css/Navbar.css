@@ -61,7 +61,8 @@
 /* MOBILE DEVICES */
 @media only screen and (min-device-width: 351px) and (max-device-width: 480px) and (orientation: portrait) {
   .navbar-border {
-    width: 7rem;
+    width: 8.5rem;
+    min-width: 0;
     margin-left: -3rem;
     top: 3.5rem;
     border-bottom: 0.2rem rgb(0, 0, 0) solid;
