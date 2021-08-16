@@ -1,25 +1,25 @@
 import React from 'react';
-import '../css/About.css?vers=1';
+import '../css/About.css';
 import mePhoto from '.././media/me.jpeg';
 import CV from '.././media/test.pdf';
 
 export const About = () => {
   return (
     <>
-      <div className="about-container" id="about">
-        <div className="about-desc">
+      <div className='about-container' id='about'>
+        <div className='about-desc'>
           <h3
-            data-aos="zoom-in-right"
-            data-aos-duration="200"
-            data-aos-mirror="true"
-            data-aos-delay="1"
+            data-aos='zoom-in-right'
+            data-aos-duration='200'
+            data-aos-mirror='true'
+            data-aos-delay='1'
           >
             About me
           </h3>
           <p
-            data-aos="zoom-in-right"
-            data-aos-duration="200"
-            data-aos-mirror="true"
+            data-aos='zoom-in-right'
+            data-aos-duration='200'
+            data-aos-mirror='true'
           >
             Studying the final project of the Programmer Analyst career at ORT
             Uruguay. <br /> Working as an administrative officer in 'Intendencia
@@ -29,28 +29,28 @@ export const About = () => {
             growing with other people.
           </p>
           <a
-            download="Nahuel Márquez CV"
+            download='Nahuel Márquez CV'
             href={CV}
-            className="button"
-            target="_blank"
-            rel="noreferrer"
-            data-aos="zoom-in-right"
-            data-aos-duration="200"
-            data-aos-mirror="true"
-            data-aos-delay="1"
+            className='button'
+            target='_blank'
+            rel='noreferrer'
+            data-aos='zoom-in-right'
+            data-aos-duration='200'
+            data-aos-mirror='true'
+            data-aos-delay='1'
           >
             Download CV
-            <i class="far fa-download"></i>
+            <i class='far fa-download'></i>
           </a>
         </div>
         <div
-          data-aos="zoom-in-right"
-          data-aos-duration="200"
-          data-aos-mirror="true"
-          data-aos-delay="1"
-          className="about-img"
+          data-aos='zoom-in-right'
+          data-aos-duration='200'
+          data-aos-mirror='true'
+          data-aos-delay='1'
+          className='about-img'
         >
-          <img src={mePhoto} alt="me" />
+          <img src={mePhoto} alt='me' />
         </div>
       </div>
     </>

@@ -38,7 +38,7 @@
   }
 }
 .scrolling-logo {
-  color: rgb(206, 206, 206);
+  color: var(--white-color);
   cursor: pointer;
   font-weight: bold;
 }

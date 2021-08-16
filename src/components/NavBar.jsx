@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Navbar.css?vers=2';
+import '../css/Navbar.css';
 import { goToTop } from './GoTop';
 
 export const Navbar = ({ isScrolling }) => {
@@ -16,7 +16,7 @@ export const Navbar = ({ isScrolling }) => {
         >
           Nahuel Márquez
         </div>
-        <div className="navbar-border" data-aos-id="super-duper"></div>
+        <div className='navbar-border' data-aos-id='super-duper'></div>
       </nav>
     </>
   );

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.css?vers=1';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Cover } from './components/Cover';
 import { Navbar } from './components/NavBar';
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <div className="App">
+      <div className='App'>
         <Navbar isScrolling={scrollHeight} />
         <GoTop isScrolling={scrollHeight} />
         <Cover />

@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100%;
   display: flex;
-  background-color: rgb(206, 206, 206);
+  background-color: var(--white-color);
   color: rgb(0, 0, 0);
   padding: 4rem 4rem;
 }
@@ -42,7 +42,7 @@
 
 .button {
   background-color: rgba(117, 117, 117, 0.336);
-  color: rgba(54, 54, 54, 0.904);
+  color: rgb(0, 0, 0);
   border-radius: 2rem;
   width: 10rem;
   align-self: center;
@@ -56,7 +56,9 @@
 a,
 a:hover {
   text-decoration: none;
-  color: inherit;
+  color: rgba(54, 54, 54, 0.904);
+  position: relative;
+  top: 0.2rem;
 }
 
 .far {
