@@ -40,7 +40,7 @@ export const About = () => {
             data-aos-delay='1'
           >
             Download CV
-            <i class='far fa-download'></i>
+            <i className='far fa-download'></i>
           </a>
         </div>
         <div

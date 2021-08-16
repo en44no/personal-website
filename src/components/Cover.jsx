@@ -32,7 +32,7 @@ export const Cover = () => {
         data-aos='zoom-in-right'
         data-aos-duration='200'
         data-aos-mirror='true'
-        class='spinner fas fa-spinner fa-spin'
+        className='spinner fas fa-spinner fa-spin'
       ></i>
       <button
         className='down-arrow fad fa-chevron-double-down'
